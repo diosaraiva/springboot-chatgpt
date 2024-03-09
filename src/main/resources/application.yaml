@@ -1,0 +1,17 @@
+server.port: 8050
+spring:
+  #profiles.active: local
+  application.name: springboot-chatgpt   
+  jackson:
+    serialization: 
+      indent-output: true
+      write-dates-as-timestamps: false
+    deserialization:
+      fail-on-unknown-properties: false
+    locale: pt_BR
+    time-zone: GMT-03:00
+    date-format: yyyy-MM-dd HH:mm:ss
+#logging:
+#  level:
+#    root: info
+#    org.springframework.web: debug
