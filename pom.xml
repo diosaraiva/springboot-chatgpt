@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.diosaraiva</groupId>
 	<version>0.0.1</version>
-	<artifactId>training-backend</artifactId>
+	<artifactId>springboot-chatgpt</artifactId>
 	<name>springboot-chatgpt</name>
 	<description>springboot-chatgpt</description>
 	<properties>
@@ -51,11 +51,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<layers>
-						<enabled>true</enabled>
-					</layers>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
